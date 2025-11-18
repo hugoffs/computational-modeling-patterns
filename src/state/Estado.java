@@ -1,35 +1,35 @@
 package state;
 
 public abstract class Estado {
-    Estado solicita() {
+    public Estado solicita() {
         return this;
     }
 
-    Estado cotacao() {
+    public Estado cotacao() {
         return this;
     }
 
-    Estado encomenda() {
+    public Estado encomenda() {
         return this;
     }
 
-    Estado entrega() {
+    public Estado entrega() {
         return this;
     }
 
-    Estado paga() {
+    public Estado paga() {
         return this;
     }
 
-    Estado rejeita() {
+    public Estado rejeita() {
         return this;
     }
 
-    Estado cancela() {
+    public Estado cancela() {
         return this;
     }
 
-    Estado arquiva() {
+    public Estado arquiva() {
         return this;
     }
 
