@@ -48,7 +48,7 @@ public class Teste
              */
             System.out.println("\nRotina 1 Sendo implementada\n");
 
-            operacaoJoao1 = new Programador(20f, 30f);
+            operacaoJoao1 = new Programador(80f, 20f);
             operacaoJoao1.aponta( joao);
             operacaoJoao2 = new Implantador(40, 40 );
             operacaoJoao2.aponta( operacaoJoao1 );
@@ -63,12 +63,12 @@ public class Teste
             /*
                 Funcionario: João Victor
                  :- Atividade executada: Programador
-                    [Numero de horas = 20.0, Valor hora = 30.0] = 600.0
+                    [Numero de horas = 80.0, Valor hora = 20.0] = 1600.0
                  :- Atividade executada: Implementador
                     [Numero de horas = 40.0, Valor hora = 40.0] = 1600.0
                  :- Atividade executada: Treinador de Usuario
                     [Numero de horas = 60.0, Valor hora = 40.0] = 2400.0
-                Salario Do Joao: 4600.0
+                Salario Do Joao: 5600.0
              */
 
             System.out.println("\nRotina 2 Sendo Implementada\n");
